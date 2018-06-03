@@ -1,11 +1,11 @@
 object Form1: TForm1
-  Left = 704
+  Left = 362
   Height = 634
-  Top = 172
+  Top = 198
   Width = 1246
   Caption = 'Form1'
-  ClientHeight = 634
-  ClientWidth = 1246
+  ClientHeight = 0
+  ClientWidth = 0
   OnCreate = FormCreate
   LCLVersion = '1.8.4.0'
   object Image1: TImage
@@ -13329,7 +13329,7 @@ object Form1: TForm1
     Transparent = True
   end
   object StaticText2: TStaticText
-    Left = 432
+    Left = 424
     Height = 64
     Top = 296
     Width = 120
