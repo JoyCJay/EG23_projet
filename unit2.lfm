@@ -1,7 +1,7 @@
 object Form2: TForm2
-  Left = 668
+  Left = 1030
   Height = 386
-  Top = 221
+  Top = 273
   Width = 440
   Caption = 'Form2'
   ClientHeight = 386
@@ -659,9 +659,9 @@ object Form2: TForm2
   end
   object Label1: TLabel
     Left = 72
-    Height = 17
+    Height = 12
     Top = 56
-    Width = 114
+    Width = 102
     Caption = 'Recherche par nom'
     ParentColor = False
   end
@@ -712,17 +712,17 @@ object Form2: TForm2
   end
   object DataSource1: TDataSource
     DataSet = Dbf1
-    left = 52
-    top = 124
+    left = 24
+    top = 112
   end
   object Dbf1: TDbf
-    FilePath = 'S:\EG23\'
+    FilePath = 'D:\UTT\ISI3\EG23\projet\Version2.0\'
     IndexDefs = <>
     TableName = 'ENSEIGNA.DBF'
     TableLevel = 4
     Active = True
     FilterOptions = []
-    left = 52
-    top = 220
+    left = 24
+    top = 216
   end
 end

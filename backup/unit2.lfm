@@ -1,26 +1,19 @@
 object Form2: TForm2
-  Left = 1122
+  Left = 1030
   Height = 386
-  Top = 320
-  Width = 538
+  Top = 273
+  Width = 440
   Caption = 'Form2'
   ClientHeight = 386
-  ClientWidth = 538
+  ClientWidth = 440
+  OnCreate = FormCreate
   LCLVersion = '1.8.4.0'
-  object StaticText1: TStaticText
-    Left = 224
-    Height = 28
-    Top = 200
-    Width = 162
-    Caption = 'Gestion des enseignants'
-    TabOrder = 0
-  end
-  object Image1: TImage
-    Left = 32
-    Height = 50
-    Top = 304
-    Width = 50
-    OnClick = Image1Click
+  object Image3: TImage
+    Left = 16
+    Height = 24
+    Top = 16
+    Width = 24
+    OnClick = Image3Click
     Picture.Data = {
       0A544A706567496D616765914D0000FFD8FFE000104A46494600010101006000
       600000FFDB0043000302020302020303030304030304050805050404050A0707
@@ -645,5 +638,91 @@ object Form2: TForm2
       D46DB7CDEA4C965C07B518A140050014005001400500140050014005007FFFD9
     }
     Proportional = True
+  end
+  object DBGrid1: TDBGrid
+    Left = 80
+    Height = 171
+    Top = 80
+    Width = 296
+    AutoFillColumns = True
+    Color = clWindow
+    Columns = <>
+    DataSource = DataSource1
+    TabOrder = 0
+  end
+  object Edit_Nom: TEdit
+    Left = 200
+    Height = 25
+    Top = 56
+    Width = 86
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 72
+    Height = 12
+    Top = 56
+    Width = 102
+    Caption = 'Recherche par nom'
+    ParentColor = False
+  end
+  object Recherche: TPanel
+    Left = 297
+    Height = 27
+    Top = 56
+    Width = 70
+    Caption = 'Recherche'
+    TabOrder = 2
+    OnClick = RechercheClick
+  end
+  object Prochain: TButton
+    Left = 118
+    Height = 30
+    Top = 18
+    Width = 68
+    Caption = 'Prochain'
+    OnClick = ProchainClick
+    TabOrder = 3
+  end
+  object Dernier: TButton
+    Left = 192
+    Height = 30
+    Top = 18
+    Width = 64
+    Caption = 'Dernier'
+    OnClick = DernierClick
+    TabOrder = 4
+  end
+  object Detail: TButton
+    Left = 145
+    Height = 27
+    Top = 258
+    Width = 72
+    Caption = 'Detail'
+    OnClick = DetailClick
+    TabOrder = 5
+  end
+  object Ajouter: TButton
+    Left = 224
+    Height = 27
+    Top = 258
+    Width = 72
+    Caption = 'Ajouter'
+    OnClick = AjouterClick
+    TabOrder = 6
+  end
+  object DataSource1: TDataSource
+    DataSet = Dbf1
+    left = 24
+    top = 112
+  end
+  object Dbf1: TDbf
+    FilePath = 'D:\UTT\ISI3\EG23\projet\Version2.0\'
+    IndexDefs = <>
+    TableName = 'ENSEIGNA.DBF'
+    TableLevel = 4
+    Active = True
+    FilterOptions = []
+    left = 24
+    top = 216
   end
 end

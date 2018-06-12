@@ -1,7 +1,7 @@
 object Form8: TForm8
-  Left = 254
+  Left = 1156
   Height = 378
-  Top = 132
+  Top = 92
   Width = 406
   Caption = 'Form8'
   ClientHeight = 378
@@ -664,17 +664,17 @@ object Form8: TForm8
   end
   object Label1: TLabel
     Left = 80
-    Height = 17
+    Height = 12
     Top = 168
-    Width = 29
+    Width = 18
     Caption = 'Nom'
     ParentColor = False
   end
   object Label2: TLabel
     Left = 64
-    Height = 17
+    Height = 12
     Top = 196
-    Width = 45
+    Width = 36
     Caption = 'Prenom'
     ParentColor = False
   end
@@ -701,9 +701,9 @@ object Form8: TForm8
   end
   object Label3: TLabel
     Left = 86
-    Height = 17
+    Height = 12
     Top = 224
-    Width = 23
+    Width = 18
     Caption = 'Age'
     ParentColor = False
   end

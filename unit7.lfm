@@ -1,10 +1,10 @@
 object Form7: TForm7
-  Left = 254
-  Height = 370
-  Top = 132
+  Left = 1138
+  Height = 394
+  Top = 564
   Width = 582
   Caption = 'Form7'
-  ClientHeight = 370
+  ClientHeight = 394
   ClientWidth = 582
   OnCreate = FormCreate
   LCLVersion = '1.8.4.0'
@@ -657,25 +657,25 @@ object Form7: TForm7
   end
   object Label1: TLabel
     Left = 80
-    Height = 17
+    Height = 12
     Top = 160
-    Width = 29
+    Width = 18
     Caption = 'Nom'
     ParentColor = False
   end
   object Label2: TLabel
     Left = 64
-    Height = 17
+    Height = 12
     Top = 192
-    Width = 45
+    Width = 36
     Caption = 'Prenom'
     ParentColor = False
   end
   object Label3: TLabel
     Left = 86
-    Height = 17
+    Height = 12
     Top = 224
-    Width = 23
+    Width = 18
     Caption = 'Age'
     ParentColor = False
   end
