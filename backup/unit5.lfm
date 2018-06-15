@@ -17423,7 +17423,7 @@ object Form5: TForm5
     Visible = False
   end
   object Image8: TImage
-    Left = 232
+    Left = 328
     Height = 408
     Top = 200
     Width = 656

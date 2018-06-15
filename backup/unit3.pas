@@ -131,7 +131,7 @@ end;
 
 procedure TForm3.Button1Click(Sender: TObject);
 begin
-
+  form9.Show;
 end;
 
 procedure TForm3.Image11Click(Sender: TObject);

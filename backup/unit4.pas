@@ -58,6 +58,7 @@ begin
   form4.Image3.Top:=0;
   form4.Image4.Top:=-176;
   form4.Image5.Visible:= False;
+  form4.Image6.Visible:= False;
 end;
 
 procedure TForm4.Image4Click(Sender: TObject);
@@ -65,6 +66,7 @@ begin
   form4.Image4.Top:=0;
   form4.Image3.Top:=-176;
   form4.Image5.Visible:= False;
+  form4.Image6.Visible:= False;
 end;
 
 end.

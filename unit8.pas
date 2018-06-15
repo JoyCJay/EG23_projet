@@ -23,6 +23,7 @@ type
     Label2: TLabel;
     Label3: TLabel;
     Panel1: TPanel;
+    procedure FormCreate(Sender: TObject);
     procedure Image3Click(Sender: TObject);
     procedure Label1Click(Sender: TObject);
     procedure Panel1Click(Sender: TObject);
@@ -49,6 +50,11 @@ end;
 procedure Tform8.Image3Click(Sender: TObject);
 begin
   form8.close;
+end;
+
+procedure Tform8.FormCreate(Sender: TObject);
+begin
+
 end;
 
 procedure Tform8.Panel1Click(Sender: TObject);

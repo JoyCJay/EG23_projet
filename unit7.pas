@@ -20,7 +20,6 @@ type
     EditPrenom: TEdit;
     GroupBox1: TGroupBox;
     Image1: TImage;
-    Image2: TImage;
     Image3: TImage;
     Label1: TLabel;
     Label2: TLabel;
